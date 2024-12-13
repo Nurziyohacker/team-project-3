@@ -57,14 +57,15 @@ body {
   color: #fff;
 }
 
+.header {
+  padding: 40px 63px;
+}
+
 .section-2__wrp {
-  border-radius: 0 0 80px 80px;
   justify-content: space-between;
   display: flex;
   padding-left: 66px;
   padding-top: 130px;
-  background-color: #161616;
-  width: 1440px;
   height: 700px;
 }
 
@@ -703,6 +704,7 @@ body {
 
 .registration__wrapper {
   width: 1312px;
+  margin: auto;
   height: 1208px;
   border-radius: 40px;
   background-color: #161616;
