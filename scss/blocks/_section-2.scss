@@ -1,0 +1,224 @@
+.section-2__wrp {
+    border-radius: 0 0 80px 80px ;
+    justify-content: space-between ;
+    display: flex;
+    padding-left: 66px;
+    padding-top: 130px;
+    background-color: $section-bc-color;
+    width: 1440px;
+    height: 700px;
+}
+.sec-2__txt_wrp {
+
+}
+.sec-2__header-p {
+    margin-bottom: -40px;
+    font-size: 14px;
+    color: #696969;
+}
+.sec-2__h2 {
+    margin-top: 10px;
+    color: white;
+    font-size: 46px;
+    font-weight: 700;
+}
+.sec-2__comment-p {
+    margin-top: -20px;
+    font-size: 14px;
+    color: white;
+    font-weight: 400px;
+}
+.sec-2_btn {
+    margin-bottom: 70px;
+    margin-top: 54px;
+    border: 1px solid $primary-pink ;
+    width: 203px;
+    height: 45px;
+    background-color: $primary-pink;
+    border-radius: 220px;
+    color: white;
+    font-size: 12px;
+
+}
+.sec-2__cat_category__wrp{
+    background-image: url(../../images/section-2_images/s2-category-bc-img.png);
+    width: 337px;
+    height: 122px;
+    border-radius: 10px;
+    position: relative;
+}
+.sec-2__category__p-1{
+    margin-left: 20px;
+    padding-top: 57px;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+}
+.sec-2__category__p-2{
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white ;
+    margin-top: -8px;
+}
+.icon-sec2{
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    font-size: 52px;
+    top: 38px;
+    left: 310px;
+    position: absolute;
+    background-color: $primary-pink;
+}
+.sec-2__icon-border-img{
+    position: absolute;
+    top: 49px;
+    left: 323px;
+    width: 16px;
+    height: 16px;
+    font-size: 30px;
+    color: white;
+}
+.sec-2__img_wrp {
+    background-image: url(../../images/section-2_images/s2-bc-img.png);
+    width: 565px;
+    height: 557px;
+    border-radius: 80px;
+    position: relative;
+    margin-right: 66px;
+    margin-top: -40px;
+}
+.sec-2__small_img-1 {
+    top: 103px;
+    left: -90px;
+    position: absolute;
+    border: 5px solid $primary-pink;
+    width: 131px;
+    height: 131px;
+    border-radius: 50%;
+}
+.sec-2__small_img-2 {
+    top: 307px;
+    left: -90px;
+    position: absolute;
+    border: 5px solid $primary-pink;
+    width: 131px;
+    height: 131px;
+    border-radius: 50%;
+}
+.sec-2__small_img-3 {
+    top: 468px;
+    left: 28px;
+    height: 0;
+    position: absolute;
+    border: 5px solid $primary-pink;
+    width: 131px;
+    height: 131px;
+    border-radius: 50%;
+}
+.sec-2__small_img-4 {
+    top: 487px;
+    left: 253px;
+    position: absolute;
+    border: 5px solid $primary-pink;
+    width: 131px;
+    height: 131px;
+    border-radius: 50%;
+}
+
+
+
+// none 2 section satrt
+.sec-2__info_block {
+    margin-left: 63px;
+    margin-top: -84px;
+    position: absolute;
+    width: 1313px;
+    height: 168px;
+    background-color: $primary-pink;
+    display: flex;
+    border-radius:  40px;
+}
+.info_block__adress {
+    display: flex;
+}
+.sec-2__location_img {
+    width: auto;
+    margin-top: 12px;
+    margin-left: 13px;
+
+}
+.sec-2__location {
+    margin-top: 54px;
+    font-weight:700;
+    font-size: 20px;
+    color: white;
+}
+.sec-2__info_block_items {
+    margin-left: 200px;
+    display: flex;
+    width: 822px;
+    height: 168px;
+    background-color: $second-pink;
+    border-radius: 80px 40px 40px 80px;
+}
+.info_block__tell {
+    display: flex;
+}
+.sec-2__tell_img {
+    margin-left: 18px;
+    margin-top: 15px;
+    display: flex;
+}
+.sec-2__tell {
+    color: white;
+    font-size: 20px;
+    margin-top: 67px;
+    font-weight: 700;
+    margin-left: 20px;
+
+}
+.sec-2__info_mail {
+    display: flex;
+}
+.sec-2__mail_img {
+    margin-left: 19px;
+    margin-top: 24px;
+    width: 40.5px;
+    height: 31.5px;
+}
+.sec-2__mail {
+    color: white;
+    font-size: 20px;
+    margin-top: 67px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.tell_img_div{
+    margin-left: 38px;
+    margin-bottom: 47px;
+    margin-top: 43px;
+    width: 78px;
+    height: 78px;
+    background-color: $primary-pink;
+    border-radius: 50%;
+}
+.mail_img_div{
+    margin-left: 70px;
+    margin-top: 43px;
+    width: 78px;
+    height: 78px;
+    background-color: $primary-pink;
+    border-radius: 50%;
+}
+.location_img_div{
+    margin-top: 43px;
+    margin-left: 23px;
+    margin-right: 20px;
+    width: 78px;
+    height: 78px;
+    background-color: $second-pink;
+    border-radius: 50%;
+}
