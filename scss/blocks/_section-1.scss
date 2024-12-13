@@ -1,0 +1,36 @@
+
+.container {
+    width: 1440px;
+    margin: 0 auto
+}
+.haeder__wrapper {
+    @include d-f(space-between , 10px)
+}
+
+.header__center {
+    @include d-f(center, 64px);
+    align-items: center;
+}
+.header__items {
+    color: #fff;
+}
+.header__items:hover{
+    color: red;
+    transition: 1s
+}
+.header__right {
+    @include d-f(center ,0);
+    align-items: center;
+}
+.header__right__img {
+    margin-right: 12px;
+
+}
+.header__btn {
+    padding: 14px 48px;
+    background-color: #C75E90;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}

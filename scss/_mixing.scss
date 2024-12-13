@@ -1,0 +1,14 @@
+@mixin d-f($j:space-between, $g:0px){
+    display: flex;
+    justify-content: $j;
+    gap: $g;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #1d1d1d;
+}
